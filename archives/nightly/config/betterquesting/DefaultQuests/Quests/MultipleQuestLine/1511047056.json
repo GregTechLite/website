@@ -1,0 +1,90 @@
+{
+  "preRequisites:11": [
+    1603276916,
+    414711137,
+    2041154940
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "在成功渡过了石器时代的原始生活后，你成功迈向了蒸汽时代。\n\n蒸汽机器使用§7蒸汽§r流体作为运行时消耗的“能量”，并在每次工作完成后从§2通风口处排出废气§r，当通风口被§4阻挡§r时机器不能正常运行配方。因此，你需要制作锅炉来生产蒸汽，所有锅炉都需要提供§c热量§r以及用于冷却的§9水§r，相信你已经准备好了§6原始水泵§r。\n\n该阶段的目的是生产钢（这需要§6土高炉§r），§8橡胶§r与最基础的§b电子电路§r，并以此进入§e电力时代§r。",
+      "frame:8": "STAR4_ON_SQUARE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "id:8": "gregtech:steam_casing"
+      },
+      "name:8": "§6蒸汽革命"
+    }
+  },
+  "questID:3": 1511047056,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 0,
+            "TrophyColorGreen:3": 128,
+            "TrophyColorRed:3": 255,
+            "TrophyEarnedAt:4": 0,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "gregtech:steam_casing"
+            },
+            "TrophyName:8": "蒸汽时代",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "neon"
+          }
+        }
+      }
+    },
+    "1:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 260,
+          "id:8": "gregtech:meta_ingot"
+        },
+        "1:10": {
+          "Count:3": 16,
+          "Damage:2": 260,
+          "id:8": "gregtech:meta_plate"
+        }
+      },
+      "index:3": 1,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 3,
+          "id:8": "minecraft:brick_block"
+        },
+        "1:10": {
+          "Count:3": 5,
+          "Damage:2": 260,
+          "id:8": "gregtech:meta_plate"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "gregtech:steam_casing"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

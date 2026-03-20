@@ -1,0 +1,41 @@
+{
+  "preRequisites:11": [
+    106026029
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "在磁铁矿矿脉中你也许能找到一些，最知名的贵金属之一，它被用于升级熔炉与一些其他合成中。",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:gold_ingot"
+      },
+      "name:8": "§e金"
+    }
+  },
+  "questID:3": 62009192,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 64,
+          "id:8": "gregtech:ore_gold_0"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 64,
+          "id:8": "minecraft:gold_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

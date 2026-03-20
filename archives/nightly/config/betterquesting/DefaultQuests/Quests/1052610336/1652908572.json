@@ -1,0 +1,80 @@
+{
+  "preRequisites:11": [
+    1935140119,
+    264657195
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§2电力高炉§r，格雷科技中最具代表性的机器之一，它会贯穿你游戏的始终。\n\n它主要的作用就是烧制材料，最大的特点是耗时长和耗电量大。\n\n§3你可以通过通入保护气来加速处理（例如氮气）。另外，制造多联电力高炉或许是个不错的主意，前提是你的发电量跟得上这家伙的消耗，不妨看看旁边的工业蒸汽引擎任务？",
+      "frame:8": "EMPTY",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 10001,
+        "id:8": "gregtech:mte"
+      },
+      "name:8": "§a电力高炉"
+    }
+  },
+  "questID:3": 1652908572,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 120,
+            "TrophyColorGreen:3": 120,
+            "TrophyColorRed:3": 180,
+            "TrophyEarnedAt:4": 1750660833,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 1001,
+              "id:8": "gregtech:mte"
+            },
+            "TrophyName:8": "电力高炉",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        }
+      }
+    },
+    "1:10": {
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "gregtech:mallet",
+          "tag:10": {
+            "DisallowContainerItem:1": 0,
+            "GT.Behaviours:10": {},
+            "GT.Tool:10": {
+              "AttackDamage:5": 0.0,
+              "AttackSpeed:5": -2.4,
+              "Durability:3": 0,
+              "Material:8": "gtlitecore:fullerene_polymer_matrix",
+              "MaxDurability:3": 524287
+            },
+            "HideFlags:3": 2
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 10001,
+          "id:8": "gregtech:mte"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

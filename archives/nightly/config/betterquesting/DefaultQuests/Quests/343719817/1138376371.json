@@ -1,0 +1,88 @@
+{
+  "preRequisites:11": [
+    10628027
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 362,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "§e更好的单晶硅"
+    }
+  },
+  "questID:3": 1138376371,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 200,
+            "TrophyColorGreen:3": 200,
+            "TrophyColorRed:3": 200,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 362,
+              "id:8": "gregtech:meta_item_1"
+            },
+            "TrophyName:8": "更好的单晶硅",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        }
+      }
+    },
+    "1:10": {
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 64,
+          "Damage:2": 351,
+          "id:8": "gregtech:meta_dust"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 64,
+          "Damage:2": 99,
+          "id:8": "gregtech:meta_dust"
+        },
+        "1:10": {
+          "Count:3": 8,
+          "Damage:2": 78,
+          "id:8": "gregtech:meta_dust"
+        },
+        "2:10": {
+          "Count:3": 2,
+          "Damage:2": 351,
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 362,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
